@@ -22,6 +22,12 @@
 # 项目管理实践
 
 - 看板使用练习（提交看板执行结果贴图，建议使用 Git project）
-
+![个人看板](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/个人看板.png)
 - 使用截图工具（png格式输出），展现你团队的任务 Kanban
+![团队看板](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/团队看板.png)
 - 每个人的任务是明确的。必须一周后可以看到具体结果
+
+# UML绘图工具练习（提交贴图，必须使用 UMLet）
+请在 参考书2 或 教材 中选择一个类图（给出参考书页码图号）
+![图](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/hw2类图.png)
+参考于教材28页 1-6
