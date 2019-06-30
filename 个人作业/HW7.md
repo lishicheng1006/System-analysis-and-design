@@ -3,7 +3,7 @@
 ## 根据订旅馆建模文档，Asg-RH.pdf：
 - 绘制用例图模型（到子用例）
 
-![用例图](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/System旅馆usecase.png)、
+![用例图](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/System旅馆usecase.png)
 
 - 给出 make reservation 用例的活动图
 
@@ -13,7 +13,9 @@
 - 分别用多泳道图建模三个场景的业务过程
 
 ![1](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/多泳道1.png)
+
 ![2](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/多泳道2.png)
+
 ![3](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/多泳道3.png)
 
 ## 根据上述流程，给出快递柜系统最终的用例图模型
