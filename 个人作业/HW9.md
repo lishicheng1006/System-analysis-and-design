@@ -11,6 +11,7 @@
 ![Make Reservation](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/HW9领域建模1.png)
 
 ## 数据建模，为了简化描述仅需要给出表清单，例如：
+- 数据库
 Hotel (HotelID/Key, LocationID/FKey, name, address, lowestPrice, discount, favourites, rating)
 Room (RoomID/Key, HotelID/FKey, type, isAvaliable, price, date )
 RoomDescription (RoomDescID/Key, RoomCataID/FKey, type, price, description)
@@ -20,6 +21,13 @@ ReservationItem (ResvItemID/Key, ResvID/FKey, RoomID/Fkey, noAdults, noChild, ch
 Customer (CustomerID/Key, ResvID/FKey, name, email)
 
 ![payment](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/支付领域建模.png)
+
+- 数据库
+
+Customer (CustomerID/Key, name, EmailAddress)
+CreditCard (CardID/Key, CustomerID/FKey, type, cardNo, secCode, balance, expiryDate)
+Payment(PaymentID/key,CardID/FKey, cost)
+ReservationItem (ResvItemID/Key, PaymentID/FKey, noAdults, noChild, childAge, checkInDate, noNights)
 
 ## 2、使用 UML State Model，对每个订单对象生命周期建模
 - 建模对象： 参考 Asg_RH 文档， 对 Reservation/Order 对象建模。
