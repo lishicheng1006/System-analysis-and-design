@@ -6,11 +6,11 @@
 - 注意事项：
 对象必须是名词、特别是技术名词、报表、描述类的处理；
 关联必须有多重性、部分有名称与导航方向
-属性要注意计算字段
+属性要注意计算字段;数据建模，为了简化描述仅需要给出表清单
 
 ![Make Reservation](https://raw.githubusercontent.com/lishicheng1006/System-analysis-and-design/master/个人作业/image/HW9领域建模1.png)
 
-## 数据建模，为了简化描述仅需要给出表清单，例如：
+
 - 数据库
 Hotel (HotelID/Key, LocationID/FKey, name, address, lowestPrice, discount, favourites, rating)
 Room (RoomID/Key, HotelID/FKey, type, isAvaliable, price, date )
